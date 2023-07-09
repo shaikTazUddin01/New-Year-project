@@ -1,0 +1,231 @@
+/* common style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header */
+.banner {
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+}
+
+.banner-contant {
+    /* width: 50%; */
+    /* float: right; */
+    padding: 216px 230px 167px 445px;
+}
+
+.banner-tittle {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.banner-button {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    float: right;
+    margin-top: 50px;
+    border: 0px;
+}
+
+/* main area */
+main {
+    padding: 0 180px;
+}
+
+/* <!-- My failures of previous year area --> */
+.my-failures {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.my-failures-img>img {
+    width: 451px;
+    /* height: 898px; */
+    /* flex-shrink: 0; */
+}
+
+.my-failures-tittle {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-failures-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.my-failures-feature {
+    margin-top: 17px;
+    padding-left: 30px;
+    list-style-image: url('../images/tick-mark.png');
+}
+
+.my-failures-feature li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* my plans section */
+.my-plans-tittle {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plans-contant {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.my-plans-tittle {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plans-item {
+    text-align: center;
+
+}
+
+.plans-item-tittle {
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.plans-item-description {
+    color: #737272;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* positive-mindset-area */
+.positive {
+    background-image: url('../images/watch.png');
+    margin-bottom: 100px;
+}
+
+.positive-mindset {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+
+}
+
+.positive-mindset-contant {
+    padding: 59px 0 59px 64px;
+}
+
+.positive-mindset-tittle {
+    color: #ffffff;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.positive-mindset-button {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 36px;
+    border: 0px;
+}
+
+/* footer area */
+footer {
+    background-color: black;
+    display: flex;
+    padding: 130px 230px;
+    gap: 40px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-contant h1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-contant p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.form-tittle {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer-form>input {
+    width: 100%;
+    padding: 20px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.footer-form>button{
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 36px;
+    border: 0px;
+}
